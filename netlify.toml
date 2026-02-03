@@ -1,9 +1,0 @@
-[[redirects]]
-  from = "/tmdb/*"
-  to = "https://api.themoviedb.org/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/tmdb-img/*"
-  to = "https://image.tmdb.org/:splat"
-  status = 200
