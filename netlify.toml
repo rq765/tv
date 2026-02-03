@@ -10,15 +10,3 @@
   from = "/tmdb-img/*"
   to = "https://image.tmdb.org/:splat"
   status = 200
-
-# ===== Cache for images =====
-[[headers]]
-  for = "/tmdb-img/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-# ===== SPA fallback =====
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
