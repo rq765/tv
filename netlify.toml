@@ -1,11 +1,8 @@
-
-# ===== TMDB API proxy =====
 [[redirects]]
   from = "/tmdb/*"
   to = "https://api.themoviedb.org/:splat"
   status = 200
 
-# ===== TMDB Images proxy =====
 [[redirects]]
   from = "/tmdb-img/*"
   to = "https://image.tmdb.org/:splat"
